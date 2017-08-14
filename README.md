@@ -35,7 +35,7 @@ This document explains steps followed in completing the coding assessment.
 
 **Part II:**
 
-  1. Locations.csv file was read from Amber's git and converted to pandas dataframe.
+  1. *Locations.csv* file was read from Amber's git and converted to pandas dataframe.
 		
   2. Hour of day and date were extracted as separate columns because the API returns weather info at hour level granularity.
 		
