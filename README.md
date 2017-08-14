@@ -34,13 +34,19 @@ This document explains steps followed in completing the coding assessment.
  24. Since the model doesn't fit the data very well, we would need to identify additional variables that could help increase the accuracy.
 
 **Part II:**
-  1. *Locations.csv* file was read from Amber's git and converted to pandas dataframe.
+
+  1. Locations.csv file was read from Amber's git and converted to pandas dataframe.
+		
   2. Hour of day and date were extracted as separate columns because the API returns weather info at hour level granularity.
+		
   3. Latitude and Longitude columns were converted into strings to form the proper API url with parameters.
-  4. getweather function takes in API weather request url and each row from locations.csv as input and extracts tempF, weatherDesc, precipMM 
-     and cloudcover from the json file returned by the historic weather API.
-  5. getlocation function takes in API search requeste url and each row from locations.csv as input and extracts areaname, state and population
-     values from the json file returned by the search API.
+		
+  4. getweather function takes in API weather request url and each row from locations.csv as input and extracts tempF, weatherDesc,          precipMM and cloudcover from the json file returned by the historic weather API.
+		
+  5. getlocation function takes in API search requeste url and each row from locations.csv as input and extracts areaname, state and          population values from the json file returned by the search API.
+		
   6. State column was not asked for but added to understand where each areaname belongs.
-  7. The extracted columns from the APIs were added to the dataframe and the dataframe was cleaned up to include only the necessary columns.
+		
+  7. The extracted columns from the APIs were added to the dataframe and the dataframe was cleaned up to include only the necessary          columns.
+		
   8. The dataframe was written to a new CSV file and saved.
