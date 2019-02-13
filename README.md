@@ -1,6 +1,6 @@
-# Coding Assessment results - Srihari Nagarajan
+# Coding Explained - Srihari Nagarajan
 
-This document explains steps followed in completing the coding assessment.
+This document explains steps followed in completing the code.
 
 **Part I:**
  1. Input data used - *patients.csv*
